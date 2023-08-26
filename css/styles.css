@@ -1,0 +1,110 @@
+/* Main */
+/* Body */
+body {
+    background-image: url(/img/white-food-background-with-empty-white-board-tomatoes-free-space-text-top-view-copy-space_503274-1320.jpg);
+    background-color: lightgray;
+}
+
+/* Nav Bar */
+.navigation-bar {
+    margin-bottom: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    color: black;
+    background-color: rgba(192, 192, 192, 0.7);
+    text-align: center;
+    border-radius: 50px;
+    border: solid black 2px;
+}
+
+/* Context Container */
+.context-container {
+    border-radius: 50px;
+    border: solid black 2px;  
+    background-color: rgba(44, 211, 255, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Title */
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+/* Rounded Images */
+img {
+    display: block;
+    width: auto;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: solid black 2px;
+}
+
+/* Hide the Scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Custom Ordered List */
+/* ol {
+    list-style: none;
+    counter-reset: num;
+    text-indent: -20px;
+}
+
+ol li {
+    counter-increment: num;
+}
+
+ol li::before {
+    content: counter(num) "."; 
+    color:green;
+    font-weight: bold;
+} */
+
+/* Style */
+/* Index */
+.recipe-container {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.lasagna {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mac-and-cheese {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.chicken-sandwiches {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.description-context {
+    text-indent: 30px;
+}
+
+.list-ingredient {
+    line-height: 22px;
+}
+
+.list-steps {
+    line-height: 22px;
+}
