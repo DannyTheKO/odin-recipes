@@ -1,18 +1,19 @@
 /* Main */
 /* Body */
 body {
-    background-image: url(/img/white-food-background-with-empty-white-board-tomatoes-free-space-text-top-view-copy-space_503274-1320.jpg);
-    background-color: lightgray;
+    /* background-image: url(/img/white-food-background-with-empty-white-board-tomatoes-free-space-text-top-view-copy-space_503274-1320.jpg); */
+    /* background-color: lightgray; */
+    /* background: no-repeat; */
+    background-image: linear-gradient(to left,rgb(121, 63, 223), rgb(255, 253, 140));
+    font-family:  'Times New Roman', Times, serif;
 }
+
+
 
 /* @font-face {
     font-family: ;
     src: url();
 } */
-
-* {
-    font-family:  'Times New Roman', Times, serif;
-}
 
 /* Nav Bar */
 .navigation-bar {
