@@ -97,16 +97,17 @@ ol li::before {
 
 .recipe-container ul {
     padding-inline-start: 0px;
+    list-style: none;
     text-align: center;
     width: auto;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .recipe-container ul li{
-    display: inline-block;
-    padding: 20px;
     font-size: 36px;
+    /* gap: 1rem; */
 }
 
 /* Lasagna */
